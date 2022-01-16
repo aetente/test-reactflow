@@ -11,6 +11,8 @@ import Sidebar from "../Sidebar/Sidebar";
 
 import CustomNode from "../CustomNode/CustomNode";
 
+import { SmartEdge } from "@tisoap/react-flow-smart-edge";
+
 import "./dnd.css";
 
 const initialElements = [];
@@ -71,6 +73,9 @@ const Test = () => {
             onDrop={onDrop}
             onDragOver={onDragOver}
             nodeTypes={nodeTypes}
+            edgeTypes={{
+              default: SmartEdge,
+            }}
           >
             <Controls />
             <Background variant="dots" gap={24} size={1} />
