@@ -1,0 +1,21 @@
+.hold-node {
+  background: white;
+  width: fit-content;
+  padding: 10px;
+  position: relative;
+  border: 1px solid black;
+}
+
+.hold-input {
+  position: absolute;
+  bottom: 64px;
+  padding: 10px;
+  background-color: aquamarine;
+  box-shadow: 5px 10px 8px #888888;
+}
+
+.hold-text {
+  width: fit-content;
+  margin: auto;
+  cursor: pointer;
+}
